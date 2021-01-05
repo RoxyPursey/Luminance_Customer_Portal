@@ -39,7 +39,7 @@ h1 {
 }
 
 .bg-img {
-  background-image: url('assets/Luminance-platform-2.jpg');
+  background-image: url('assets/Luminance-platform-2');
   height: 80%;
   /* Position and center the image to scale nicely on all screens */
   background-position: center;
