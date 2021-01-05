@@ -6,7 +6,7 @@ body {
   margin: 0;
   padding: 0;
 }
-​ header {
+header {
   background-color: #206cb3;
   background-image: linear-gradient(45deg, #206cb3, #f5db81);
   display: flex;
@@ -21,7 +21,7 @@ body {
   padding-left: 20%;
   padding-top: 10%;
 }
-​ .menu-items {
+.menu-items {
   font-size: medium;
   font-family: 'Lato', sans-serif;
   color: white;
@@ -37,10 +37,10 @@ body {
   margin-left: 50px;
   display: inline-flex;
 }
-​ a {
+a {
   text-decoration: none;
 }
-​ button {
+button {
   font-family: 'Lato', sans-serif;
   text-transform: uppercase;
   outline: 0;
@@ -58,7 +58,7 @@ body {
   margin-top: 40%;
   margin-left: 300%;
 }
-​ .button2 {
+.button2 {
   font-family: 'Lato', sans-serif;
   text-transform: uppercase;
   outline: 0;
@@ -75,14 +75,14 @@ body {
   margin-left: 0%;
   margin-top: 0%;
 }
-​ .login-page {
+.login-page {
   width: 400px;
   height: 800px;
   padding: 3% 0 0;
   /* margin: auto; */
   margin-left: 680px;
 }
-​ .form {
+.form {
   position: relative;
   justify-content: right;
   z-index: 1;
@@ -95,21 +95,19 @@ body {
   font-family: 'lato';
   margin-left: 1250px;
 } */
-​
 /* calendar */
-​
 * {
   box-sizing: border-box;
 }
-​ .container {
+.container {
   margin-top: -800px;
   margin-left: 5%;
   width: 400px;
 }
-​ .light {
+.light {
   background-color: #fff;
 }
-​ .calendar {
+.calendar {
   width: 370px;
   box-shadow: 0px 0px 35px -16px rgba(0, 0, 0, 0.75);
   font-family: 'Roboto', sans-serif;
@@ -117,10 +115,10 @@ body {
   color: #363b41;
   display: inline-block;
 }
-​ .calendar_header {
+.calendar_header {
   border-bottom: 2px solid rgba(0, 0, 0, 0.08);
 }
-​ .header_copy {
+.header_copy {
   color: #a39d9e;
   font-size: 20px;
 }
@@ -143,7 +141,7 @@ body {
   margin: 20px 0;
   display: inline-block;
 }
-​ .cl_add {
+.cl_add {
   display: inline-block;
   width: 40px;
   height: 40px;
@@ -160,12 +158,12 @@ body {
 .ce_title {
   font-size: 14px;
 }
-​ .event_item {
+.event_item {
   margin: 18px 0;
   padding: 5px;
   cursor: pointer;
 }
-​ .event_item:hover {
+.event_item:hover {
   background-color: #206cb3;
   background-image: linear-gradient(45deg, #206cb3, #f5db81);
   box-shadow: 0px 0px 52px -18px rgba(0, 0, 0, 0.75);
@@ -174,11 +172,11 @@ body {
 .event_item:hover .ei_Title {
   color: #fff;
 }
-​ .ei_Dot,
+.ei_Dot,
 .ei_Title {
   display: inline-block;
 }
-​ .ei_Dot {
+.ei_Dot {
   border-radius: 50%;
   width: 10px;
   height: 10px;
@@ -188,50 +186,50 @@ body {
 .dot_active {
   background-color: #206cb3;
 }
-​ .ei_Title {
+.ei_Title {
   margin-left: 10px;
   color: #363b41;
 }
-​ .ei_Copy {
+.ei_Copy {
   font-size: 12px;
   margin-left: 27px;
 }
-​ footer {
+footer {
   font-family: 'Lato';
   font-weight: bold;
   text-align: center;
   margin-top: 100px;
   padding-top: 5px;
 }
-​ .graph {
+.graph {
   margin-bottom: 1em;
   font: 'lato';
   margin-left: 640px;
   margin-top: -580px;
 }
-​ .graph caption {
+.graph caption {
   font: bold 150%/120% 'lato';
   padding-bottom: 0.33em;
   text-align: left;
   margin-left: 39px;
 }
-​ .graph tbody th {
+.graph tbody th {
   text-align: right;
 }
-​ @supports (display: grid) {
+@supports (display: grid) {
   @media (min-width: 32em) {
     .graph {
       display: block;
       width: 800px;
       height: 500px;
     }
-    ​ .graph caption {
+    .graph caption {
       display: block;
     }
-    ​ .graph thead {
+    .graph thead {
       display: none;
     }
-    ​ .graph tbody {
+    .graph tbody {
       position: relative;
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(2em, 1fr));
@@ -249,7 +247,7 @@ body {
         transparent 20%
       );
     }
-    ​ .graph tbody:before,
+    .graph tbody:before,
     .graph tbody:after {
       position: absolute;
       left: -3.2em;
@@ -257,27 +255,27 @@ body {
       text-align: right;
       font: bold 80%/120% arial, helvetica, sans-serif;
     }
-    ​ .graph tbody:before {
+    .graph tbody:before {
       content: '100%';
       top: -0.6em;
     }
-    ​ .graph tbody:after {
+    .graph tbody:after {
       content: '0%';
       bottom: -0.6em;
     }
-    ​ .graph tr {
+    .graph tr {
       position: relative;
       display: block;
     }
-    ​ .graph tr:hover {
+    .graph tr:hover {
       z-index: 999;
     }
-    ​ .graph th,
+    .graph th,
     .graph td {
       display: block;
       text-align: center;
     }
-    ​ .graph tbody th {
+    .graph tbody th {
       position: absolute;
       top: -3em;
       left: 0;
@@ -288,20 +286,20 @@ body {
       text-indent: 0;
       transform: rotate(-45deg);
     }
-    ​ .graph tbody th:after {
+    .graph tbody th:after {
       content: '';
     }
-    ​ .graph td {
+    .graph td {
       width: 100%;
       height: 100%;
       background: #206cb3;
       border-radius: 0.5em 0.5em 0 0;
       transition: background 0.5s;
     }
-    ​ .graph tr:hover td {
+    .graph tr:hover td {
       opacity: 0.7;
     }
-    ​ .graph td span {
+    .graph td span {
       overflow: hidden;
       position: absolute;
       left: 50%;
@@ -315,7 +313,7 @@ body {
       transition: opacity 0.5s;
       color: white;
     }
-    ​ .toggleGraph:checked + table td span,
+    .toggleGraph:checked + table td span,
     .graph tr:hover td span {
       width: 4em;
       margin-left: -2em;
@@ -323,7 +321,7 @@ body {
     }
   }
 }
-​ .piechart {
+.piechart {
   margin-top: -810px;
   margin-left: 1200px;
   display: block;
@@ -338,11 +336,11 @@ body {
   box-shadow: 0px 0px 35px -16px rgba(0, 0, 0, 0.75);
   background-image: conic-gradient(#206cb3 70deg, #f5db81 0 235deg, #206cb3 0);
 }
-​ .pietext {
+.pietext {
   text-align: center;
   padding-top: 25px;
 }
-​ @media screen and (max-width: 1300px) {
+@media screen and (max-width: 1300px) {
   header {
     justify-content: space-around;
     width: 100%;
@@ -353,11 +351,11 @@ body {
     margin-left: -10px;
     margin-top: 3px;
   }
-  ​ .navbar {
+  .navbar {
     width: 100%;
     justify-content: space-evenly;
   }
-  ​ .menu-items {
+  .menu-items {
     margin-top: 20px;
     margin-bottom: 50px;
     margin-left: 20px;
@@ -377,19 +375,19 @@ body {
   /* .calendar {
     width: 300px;
   } */
-  ​ .button2 {
+  .button2 {
     margin-left: 200px;
     margin-top: -22px;
   }
-  ​ .graph {
+  .graph {
     width: 40%;
     margin-left: 550px;
   }
-  ​ .form {
+  .form {
     width: 70%;
     margin-left: -100px;
   }
-  ​ .piechart {
+  .piechart {
     width: 150px;
     height: 100px;
     padding-top: 50px;
